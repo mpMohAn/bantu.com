@@ -1,0 +1,25 @@
+{
+  "name": "bunto.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gsap": "^2.0.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-grid-gallery": "^0.5.1",
+    "react-images": "^0.5.19",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "semantic-ui": "^2.3.3",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.3",
+    "video-react": "^0.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

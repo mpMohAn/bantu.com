@@ -1,0 +1,50 @@
+.ui.card {
+    margin: auto !important;
+    width: auto !important;
+    margin-bottom: 30px !important;
+    box-shadow: 0px 0px 24px #ddd !important;
+    overflow: hidden;
+}
+.ui.card:hover img {
+    -webkit-animation: kenburns-top 5s ease-out both;
+    animation: kenburns-top 5s ease-out both;
+}
+@keyframes kenburns-top {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+    }
+
+    100% {
+        -webkit-transform: scale(2) translateY(-15px);
+        transform: scale(2) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+    }
+}
+.ui.card:hover {
+    color: white;
+}
+.ui.card>.content,
+.ui.cards>.card>.content {
+    z-index: 2;
+}
+.main-img img {
+    height: 450px !important;
+    margin-bottom: 80px;
+}
+.pkg-container {
+    padding: 30px !important;
+}
+.slideshow__deco {
+    grid-area: slide;
+    background: var(--color-deco);
+    width: 100%;
+    height: 80%;
+    align-self: center;
+    position: relative;
+    margin: -40px 0 0 0;
+    right: -20px;
+}

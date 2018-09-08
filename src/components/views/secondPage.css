@@ -1,0 +1,39 @@
+.blur {
+    filter: blur(5px);
+}
+.main-img img {
+    height: 450px !important;
+    margin-bottom: 80px;
+}
+.pkg-details {
+    position: relative;
+    margin-top: 78px;
+}
+.pkg-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 30px !important;
+    height: 368px;
+}
+.video-react.video-react-fluid,
+.video-react.video-react-16-9,
+.video-react.video-react-4-3 {
+    width: 90% !important;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0 0 20px #191717;
+}
+.tile {
+    padding: 15px !important;
+    box-shadow: 0 0 30px #ddd !important;
+    background-color: white !important;
+    margin: 15px !important;
+    padding-bottom: 30px !important;
+    overflow: hidden !important;
+}
+#ReactGridGallery {
+    margin-top: 80px;
+}

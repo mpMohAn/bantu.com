@@ -1,7 +1,7 @@
 {
   "name": "bunto.com",
   "version": "0.1.0",
-  "homepage": "https://mpmohan.github.io/bantu.com/",
+  "homepage": "https://mpmohan.github.io/",
   "private": true,
   "dependencies": {
     "gsap": "^2.0.2",
